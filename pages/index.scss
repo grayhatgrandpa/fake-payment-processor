@@ -1,0 +1,28 @@
+:root {
+    --accent: #ac4dc9;
+    --border: #372b3b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0a0808;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+.submit {
+    position: relative;
+    top: 60px;
+    display: block;
+}

@@ -1,0 +1,27 @@
+.container {
+    margin-top: 20px;
+
+    .label {
+        font-size: 15px;
+        color: #8d7c91;
+        margin-bottom: 10px;
+    }
+
+    .input {
+        background: transparent;
+        outline: none;
+        border-width: 1px;
+        border-style: solid;
+        border-color: var(--border);
+        padding: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 300px;
+        border-radius: 10px;
+        transition: 0.1s linear;
+
+        &:focus {
+            border-color: var(--accent);
+        }
+    }
+}

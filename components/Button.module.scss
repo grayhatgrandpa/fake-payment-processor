@@ -1,0 +1,26 @@
+.button {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 2em;
+    border-style: solid;
+    border-width: 1px;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.1s linear;
+
+    &.primary {
+        background: var(--accent);
+        border-color: var(--accent);
+    }
+
+    &.secondary {
+        color: var(--accent);
+        border-color: var(--border);
+    }
+
+    &:hover {
+        opacity: 0.75;
+    }
+}
