@@ -26,12 +26,13 @@ const FormEntry: FC<Props> = ({ children }) => {
         )
     }, [inputName])
 
+    const type: string = inputName === 'password' ? 'password' : 'text'
+
     return (
         <div className={styles.container}>
             <p className={styles.label}>{children}</p>
             <input
-                {...{ value }}
-                type="text"
+                {...{ value, type }}
                 className={styles.input}
                 name={inputName}
                 onChange={updateValue}
